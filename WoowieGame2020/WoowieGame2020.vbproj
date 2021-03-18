@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A01C43DC-A454-4F58-9AA6-5DE7A4A368E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ChaBug.My.MyApplication</StartupObject>
+    <RootNamespace>ChaBug</RootNamespace>
+    <AssemblyName>ChaBug</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ChaBug.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ChaBug.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icone.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimatorType.vb" />
+    <Compile Include="Bugs.vb" />
+    <Compile Include="Bullet.vb" />
+    <Compile Include="Character.vb" />
+    <Compile Include="CorruptedFileType.vb" />
+    <Compile Include="DirectoryType.vb" />
+    <Compile Include="ExplorerElementType.vb" />
+    <Compile Include="EnemyType.vb" />
+    <Compile Include="FileType.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HUDType.vb" />
+    <Compile Include="Map.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Par.vb" />
+    <Compile Include="Parameters.vb" />
+    <Compile Include="Platform.vb" />
+    <Compile Include="SoundsManager.vb" />
+    <Compile Include="TextureObjectType.vb" />
+    <Compile Include="Vector.vb" />
+    <Compile Include="Wall.vb" />
+    <Compile Include="TexturesType.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\Timeless.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\levels.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\characterAnimationSheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemySheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooldownBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooldownFrame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooldownFrameFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textureObjectType_explorerBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallTiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\directory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HealthBarFrameCorruptedFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corruptedFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\corruptedFileBullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileType_configtxt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileType_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileType_void.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\characterAnimationSheetBugged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulletBugged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundBugged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_sound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_sound1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_sound2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_sound3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hurt2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hurt3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hurt4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hurt1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_death2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_death1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\end_of_tableau.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_death3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_death1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_death2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_hurt2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_hurt3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_hurt1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter_dir.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jump2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jump1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk_normal.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walk_explorer.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_explorer.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solve_bug.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\death.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_bullet2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_bullet1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf_bullet3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textureObjectType_tuto0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textureObjectType_tuto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textureObjectType_tuto2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textureObjectType_tuto3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textureObjectType_tuto4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textureObjectType_end.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icone.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

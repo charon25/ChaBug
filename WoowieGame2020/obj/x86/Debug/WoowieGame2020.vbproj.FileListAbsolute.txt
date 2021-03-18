@@ -1,0 +1,10 @@
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\obj\x86\Debug\WoowieGame2020.vbproj.GenerateResource.Cache
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\bin\Debug\ChaBug.exe.config
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\bin\Debug\ChaBug.exe
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\bin\Debug\ChaBug.pdb
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\bin\Debug\ChaBug.xml
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\obj\x86\Debug\ChaBug.Form1.resources
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\obj\x86\Debug\ChaBug.Resources.resources
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\obj\x86\Debug\ChaBug.exe
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\obj\x86\Debug\ChaBug.xml
+C:\Users\Charon\Documents\Visual Studio 2010\Projects\WoowieGame2020\WoowieGame2020\obj\x86\Debug\ChaBug.pdb

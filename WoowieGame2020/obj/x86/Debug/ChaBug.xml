@@ -1,0 +1,248 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ChaBug
+</name>
+</assembly>
+<members>
+<member name="P:ChaBug.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.background">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.backgroundBugged">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.bullet">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.bullet_sound1">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.bullet_sound2">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.bullet_sound3">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.bulletBugged">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_bullet1">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_bullet2">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_bullet3">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_death1">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_death2">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_death3">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_hurt1">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_hurt2">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cf_hurt3">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.characterAnimationSheet">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.characterAnimationSheetBugged">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.close_explorer">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cooldownBar">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cooldownFrame">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.cooldownFrameFull">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.corruptedFile">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.corruptedFileBullet">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.death">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.directory">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.end_of_tableau">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.enemy_death1">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.enemy_death2">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.enemySheet">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.enter_dir">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.fileType_configtxt">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.fileType_image">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.fileType_void">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.health">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.HealthBarFrameCorruptedFile">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.hurt1">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.hurt2">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.hurt3">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.hurt4">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.jump1">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.jump2">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.levels">
+	<summary>
+  Recherche une chaîne localisée semblable à {"Character":{"Acceleration":{"X":0,"Y":0},"Cooldown":0,"Height":24,"InitialCooldown":0,"Input":false,"IsAirborne":false,"Location":{"X":10,"Y":630},"Velocity":{"X":0,"Y":0},"Width":24,"gravityAcceleration":{"X":0,"Y":5.5},"inherentAcceleration":{"X":0,"Y":0},"isLookingLeft":false,"steppingPlatform":null,"touchingWall":null},"GroundHeight":632,"HUD":null,"TextureObjectsList":[{"BackgroundImage":null,"BackgroundImageName":"tuto0","Location":{"IsEmpty":false,"X":440,"Y":150},"Size":{"Height":55,"IsEmpty":fals [le reste de la chaîne a été tronqué]";.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.music">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.solve_bug">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.textureObjectType_end">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.textureObjectType_explorerBackground">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.textureObjectType_tuto0">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.textureObjectType_tuto1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.textureObjectType_tuto2">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.textureObjectType_tuto3">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.textureObjectType_tuto4">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.Timeless">
+	<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.walk_explorer">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.walk_normal">
+	<summary>
+  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
+</summary>
+</member><member name="P:ChaBug.My.Resources.Resources.wallTiles">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ChaBug.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+</members>
+</doc>
